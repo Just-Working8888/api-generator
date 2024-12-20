@@ -1,0 +1,40 @@
+{
+  "name": "api-generator",
+  "version": "1.0.0",
+  "description": "A library to automate API generation, Redux slices, and hooks",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"No test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/api-generator.git"
+  },
+  "keywords": [
+    "api",
+    "redux",
+    "axios",
+    "toolkit",
+    "typescript",
+    "automation"
+  ],
+  "author": "Your Name <your-email@example.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "react-redux": "^9.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.2",
+    "@types/react-dom": "^19.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "files": [
+    "dist",
+    "package.json"
+  ]
+}
